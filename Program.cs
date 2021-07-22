@@ -10,7 +10,7 @@ namespace _1
     {
         static void Main(string[] args)
         {
-            int BufferMas = 0;
+            
             int number = 0;
                   var uniqueItemsList = args.Distinct().ToList();
             if (args.Length >= 3 & args.Length % 2 != 0)
