@@ -21,7 +21,7 @@ namespace _1
                         Console.WriteLine("Duplicate error");
                         Environment.Exit(0);
                     }
-                    if (args[BufferMas] != args[BufferMas + 1])
+                    if (a <= args.Length && args[BufferMas] != args[BufferMas + 1])
                     {
                         BufferMas++;
                         a = BufferMas;
