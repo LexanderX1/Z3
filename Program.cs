@@ -12,11 +12,12 @@ namespace _1
         {
             int BufferMas = 0;
             int number = 0;
+                  var uniqueItemsList = args.Distinct().ToList();
             if (args.Length >= 3 & args.Length % 2 != 0)
             {
                 for (int a = 1; a < args.Length; a++)
                 {
-                    if (args[BufferMas] == args[a])
+                    if (uniqueItemsList.Count ! == args[a])
                     {
                         Console.WriteLine("Duplicate error");
                         Environment.Exit(0);
